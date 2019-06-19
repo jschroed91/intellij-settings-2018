@@ -1,0 +1,48 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
+      </component>
+      <component name="SbtLocalSettings">
+        <option name="projectSyncType">
+          <map>
+            <entry key="$USER_HOME$/windcreek/com.windcreekcasino.services-shared" value="PREVIEW" />
+            <entry key="$USER_HOME$/windcreek/hotel-booking-graphql" value="PREVIEW" />
+            <entry key="$USER_HOME$/windcreek/hotel-booking-service" value="PREVIEW" />
+            <entry key="$USER_HOME$/windcreek/new-ux-server" value="PREVIEW" />
+            <entry key="$USER_HOME$/windcreek/opera-web-service" value="PREVIEW" />
+            <entry key="$USER_HOME$/windcreek/patron-service" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="ScalaProjectSettings">
+        <option name="intInjectionMapping">
+          <map>
+            <entry key="xml" value="XML" />
+          </map>
+        </option>
+      </component>
+      <component name="ScalaSbtSettings">
+        <option name="customVMEnabled" value="true" />
+        <option name="customVMPath" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.20614035" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>
