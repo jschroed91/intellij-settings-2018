@@ -1,0 +1,10 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="test">
+      <action id="EditorDelete" />
+      <typing text-keycode="50:0">2</typing>
+      <action id="EditorDown" />
+      <action id="GotoAction" />
+    </macro>
+  </component>
+</application>
