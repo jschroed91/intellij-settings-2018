@@ -1,0 +1,11 @@
+<templateSet group="scalaCustom">
+  <template name="msgclss" value="package com.windcreekcasino.messages.hotelBooking&#10;&#10;import com.windcreekcasino.messages.JsonWrapping&#10;import play.api.libs.json.{JsObject, Json}&#10;&#10;case class $NAME$ private($ARGS$)&#10;&#10;object $NAME$ extends JsonWrapping[$NAME$] {&#10;  implicit val format = Json.format[$NAME$]&#10;&#10;  override def wrapper: String = &quot;$WRAPPER$&quot;&#10;&#10;  override def wrap(message: $NAME$): JsObject = {&#10;    Json.obj(wrapper -&gt; Json.toJson(message))&#10;  }&#10;&#10;  def apply($ARGS$): $NAME$ = new $NAME$($ARGS_NO_TYPES$)&#10;}&#10;" description="Case Class for shared services message" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="scala_className" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="scala_primaryConstructorParams" defaultValue="" alwaysStopAt="true" />
+    <variable name="WRAPPER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS_NO_TYPES" expression="scala_primaryConstructorParamNames(ARGS)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>
